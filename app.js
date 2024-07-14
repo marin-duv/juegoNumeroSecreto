@@ -1,4 +1,3 @@
-
 /*
 
 let numeroSecreto = 6;
@@ -12,4 +11,7 @@ if (numeroUsuario == numeroSecreto) {
 
 */
 
+
+
 alert ("Hola Mundo");
+let numeroUsuario = prompt("Me indicas un número por favor");
