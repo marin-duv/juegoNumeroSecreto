@@ -63,6 +63,7 @@ body::before {
     margin-top: 16px;
 }
 
+/*ejemplo de player 1 funcionando */
 p {
     font-family: "helvetica neue", helvetica, sans-serif;
     letter-spacing: 1px;
@@ -76,8 +77,8 @@ p {
     padding: 3px 10px;
     display: inline-block;
     cursor: pointer;
-  }
-  
+}
+
 
 .container__texto {
     margin: 16px 0 16px 0;
@@ -91,12 +92,15 @@ h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 72px;
 }
+/*
 
 h2,
 p,
 button {
     font-family: 'Inter', sans-serif;
 }
+
+*/
 
 h2 {
     font-size: 32px;
