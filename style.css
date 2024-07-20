@@ -63,7 +63,7 @@ body::before {
     margin-top: 16px;
 }
 
-/*ejemplo de player 1 funcionando */
+/*ejemplo de player 1 funcionando
 p {
     font-family: "helvetica neue", helvetica, sans-serif;
     letter-spacing: 1px;
@@ -87,6 +87,7 @@ p {
 .container__texto-azul {
     color: #1875E8;
 }
+*/
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
