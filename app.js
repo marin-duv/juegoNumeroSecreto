@@ -1,15 +1,22 @@
-/* ejemplo de numero secreto
+/* ejemplo de numero secreto*/
 
+//tema comentarios y else
+
+// estas son las variables
 let numeroSecreto = 6;
-let numeroUsuario = prompt("Me indicas un n�mero por favor:");
+let numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor:");
 
 console.log(numeroUsuario);
 
 if (numeroUsuario == numeroSecreto) {
-    alert('Acertaste el n�mero');
+    //acerto, fue verdadera la condicion
+    alert('Acertaste el número');
+} else {
+    //la condicion no se cumplio 
+    alert('Lo siento, No acertaste el número');
 }
 
-*/
+
 
 /* ejemplo de alert
 alert ('¡Bienvenida y bienvenido a nuestro sitio web!');
@@ -65,7 +72,7 @@ if (edad >= 18 ) {
 */
 
 
-/*ejemplo de player 1 funcionando */
+/*ejemplo de player 1 funcionando 
 
 const para = document.querySelector("p");
 
@@ -75,6 +82,8 @@ function updateName() {
 let name = prompt("Enter a new name");
 para.textContent = "Player 1: " + name;
 }
+
+*/
 
 /*
 return (updateName);
