@@ -1,20 +1,25 @@
 /* ejemplo de numero secreto*/
-
+alert (`Bienvenido al juego del número secreto`);
 //tema comentarios y else
 
 // estas son las variables
-let numeroSecreto = 6;
+let numeroSecreto = 8;
 let numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor:");
+console.log(`Valor de intento: ${numeroUsuario}`);
 
 console.log(numeroUsuario);
 
 if (numeroUsuario == numeroSecreto) {
     //acerto, fue verdadera la condicion
-    alert('Acertaste el número');
+    // se utilizop templete strings
+    // templete strings `texto: ${variable}`
+    alert(`¡Acertaste, el número es: ${numeroUsuario}`);
 } else {
     //la condicion no se cumplio 
     alert('Lo siento, No acertaste el número');
+    console.log(`Èl numero secreto era ${numeroSecreto}`);
 }
+
 
 
 
