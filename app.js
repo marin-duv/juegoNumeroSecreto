@@ -1,12 +1,13 @@
 
+
 // ejemplo de numero secreto
 //******************************************************************************************
 
 alert (`Bienvenido al juego del número secreto`);
 //tema comentarios y else
 // estas son las variables
-
-let numeroSecreto = parseInt(Math.floor(Math.random()*10))+1;
+let maximoNumero = 100;
+let numeroSecreto = parseInt(Math.floor(Math.random()*maximoNumero))+1;
 let numeroUsuario = 0;
 let intentos = 1;
 //let palabraVeces = 'vez';
@@ -17,7 +18,7 @@ console.log (numeroSecreto);
 while (numeroUsuario != numeroSecreto) {
     //numeroSecreto = parseInt(numeroSecreto);
     console.log (typeof(`numero SECRETO ...... ${numeroSecreto}`));
-    numeroUsuario = parseInt(prompt("Me indicas un número entre 1 y 10 por favor:"));
+    numeroUsuario = parseInt(prompt(`Me indicas un número entre 1 y ${maximoNumero} por favor:`));
     console.log(`Valor de intento: ${numeroUsuario}`);
     console.log(typeof(numeroUsuario));
     if (numeroUsuario == numeroSecreto) {
@@ -45,6 +46,110 @@ while (numeroUsuario != numeroSecreto) {
     }
 }
 //******************************************************************************************
+
+
+/*
+//mensaje de bienvenida con console log
+console.log ('Bienvenido');
+*/
+
+/*
+// saludo con nombre  consle.log
+let nombre = "Arael";
+console.log(`¡Hola ${nombre}`);
+*/
+
+/*
+// saludo con nombre  alert
+let nombre = "Arael";
+alert(`¡Hola ${nombre}`);
+*/
+
+/*
+//lenguaje de programacion
+let lenguaje = prompt ('Cual es el lenguaje de programacion que mas te gusta:');
+console.log(`el lenguaje es: ${lenguaje}`);
+*/
+
+/*
+//valor 1 suma
+let valor1=2;
+let valor2=2;
+resultado = valor1+valor2;
+console.log (`la suma es: ${resultado}`);
+*/
+
+/*
+//valor 1 resta
+let valor1=3;
+let valor2=2;
+resultado = valor1-valor2;
+console.log (`la resta es: ${resultado}`);
+*/
+
+/*
+//mayor de edad
+let edad = prompt ('ingresa tu edad:');
+
+if (edad >= 18 ){
+    console.log('es mayor de edad');
+} else {
+    console.log('es menor de edad');
+}
+*/
+
+/*
+// negativo o positivo
+let numero = prompt ('ingresa número');
+
+if (numero > 0) {
+    console.log('el numero es positivo'); 
+} else if (numero < 0) {
+    console.log ('el numero es negativo')
+} else {
+    console.log ('el numero es 0');
+}
+*/
+
+/*
+//while del 1 al 10 
+numero = 1;
+while (numero <= 10) {
+    console.log(numero);
+    numero++;
+}
+*/
+
+/*
+//nota
+nota = 7;
+if (nota >= 7 ){
+    console.log('nota aprobada');
+} else {
+    console.log('nota reprobada');
+}
+
+*/
+
+/*
+//numero random
+numero = Math.random();
+console.log(numero)
+*/
+
+/*
+//numero random entre 1 y 10 
+numero = Math.floor(Math.random()*10+1);
+console.log(numero)
+*/
+
+
+/*
+//numero random entre 1 y 1000
+numero = Math.floor(Math.random()*1000+1);
+console.log(numero)
+*/
+
 
 
 /*
